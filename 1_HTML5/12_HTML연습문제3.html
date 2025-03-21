@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12_HTML연습문제3</title>
+</head>
+<body>
+  <h1>회원 가입</h1>
+  <form>
+    <fieldset>
+      <legend>필수 입력 정보</legend>
+      <table name="information">
+        <tr>
+          <th>ID</th>
+          <td><input type="text"></td>
+          <td><button>중복확인</button></td>
+        </tr>
+        <tr>
+          <th>비밀번호</th>
+          <td colspan="2"><input size="30" type="password" placeholder="영문,숫자,특수문자 포함 8자 이상"></td>
+        </tr>
+        <tr>
+          <th>비밀번호 확인</th>
+          <td colspan="2"><input size="30" type="password"></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email"></td>
+          <td>
+            <select>
+              <option>직접입력</option>
+              <option>gmail.com</option>
+              <option>nave.com</option>
+              <option>daum.net</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>추가 정보</legend>
+      프로필 사진 <input type="file" name="picture"><br>
+      <br>
+      성별 : <input type="radio" name="gender">남자 <input type="radio">여자<br>
+      <br>
+      생년월일 : <input type="date" name="birth"><br>
+      <br>
+      취미<br>
+      <table name="hobby">
+        <tr>
+          <td><input type="checkbox">야구</td>
+          <td><input type="checkbox">농구</td>
+          <td><input type="checkbox">족구</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox">공부</td>
+          <td colspan="2"><input type="checkbox">음악감상</td>
+        </tr>
+        <tr>
+          <td colspan="3">기타 <input type="text" size="20"></td>
+        </tr>            
+      </table>
+      <br>
+      자기소개<br>
+      <textarea rows="10" cols="80" style="resize: none" name="self"></textarea >
+    </fieldset>
+  </form>
+<br>
+<button>회원가입</button> <button>다시입력</button> <button>이전으로</button>
+</body>
+</html>
