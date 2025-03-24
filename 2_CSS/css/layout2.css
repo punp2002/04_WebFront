@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.content {
+  width: 150px;
+  height: 150px
+
+  /* width / height 속성
+  기본적으로 content 영역의
+  크기를 지정하는 속성 */
+}
