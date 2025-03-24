@@ -1,0 +1,35 @@
+.area1{background-color: red;}
+.area2{background-color: orange;}
+.area3{background-color: yellow;}
+.area4{background-color: green;}
+.area5{background-color: blue;}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+
+  width: 150px;
+  height: 150px;
+}
+
+.inline-block {
+  display: none;
+}
+
+/* 감싸는 영역 요소 */
+#container-1 {
+  border: 3px solid black;
+  width: 323px;
+  height: 472px;
+}
+
+/* 내부에 영역을 분할할 요소 */
+.div-1 {
+  height: 50%;
+  width: 100;
+
+  border: 1px dashed hotpink;
+}
