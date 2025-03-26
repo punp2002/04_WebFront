@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+main {
+  width: 1140px;
+  margin: auto;
+}
+
+header {
+  height: 74px;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+  position: fixed;
+}
+
+.navbar .logo img {
+  width: 120px;
+}
+
+.navbar .menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .menu ul li {
+  list-style: none;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar .menu ul li a:hover {
+  color: #f4f4f4;
+}
+
+.navbar .actions button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar .actions button:hover {
+  color: #f4f4f4;
+}
+
+
+.multi-banner {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto 80px;
+  position: relative;
+  min-width: 1240px;
+  max-width: 3840px;
+  min-height: 508px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 8px;
+  border-radius: 0;
+  background-color: #a5a5a5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: transparent;
+}
