@@ -34,9 +34,9 @@ exitBtn.addEventListener("click", () => {
 
 addMenu.addEventListener("click", () => {
     // 내용을 "CSS선택자로 선택해서 값 변경됨" 변경해보기
-<div target-div="css-div"></div>
-     
 
+  const ul = document.createElement("ul");  
+  li.classList.add("menu-container");
   const li = document.createElement("li");  
   li.classList.add("menu");
   const input = document.createElement("input");

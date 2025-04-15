@@ -1,0 +1,153 @@
+.form-main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.form-main-class {
+  width: 700px;
+}
+
+fieldset {
+  border: 1px solid #aaa;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title-main {
+  display: inline-block;
+  width: 80px;
+  font-weight: bold;
+  text-align: left;       
+  vertical-align: middle;
+}
+
+#title {
+  display: inline-block;
+  width: 500px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.content-main {
+  display: inline-block;
+  width: 80px;
+  font-weight: bold;  
+  margin-top: 15px;
+  
+}
+
+.form-row {
+  display: flex;
+  align-items: center; /* 세로 가운데 정렬 */
+  margin-top: 15px;
+}
+
+#content {
+  display: inline-block;
+  width: 500px;
+  height: 100px;
+  resize: none;
+  padding: 6px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.uploadFile-main{
+  display: inline;
+}
+
+div[name="uploadFile"] {
+  
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  
+}
+
+.file-input-wrapper {
+  
+  margin-bottom: 15px;
+}
+
+.button1 {
+  margin-left: 100px;
+}
+
+
+
+
+thead th {
+  background-color: coral;  
+  border: 1px solid black;
+  color: white;
+}
+
+tbody td {
+  text-align: center;  
+}
+
+tbody td:nth-child(1), tbody td:nth-child(2),
+tbody td:nth-child(4),tbody td:nth-child(5),
+tbody td:nth-child(6){
+  text-align: left;
+}
+
+.button {  
+  background-color: #dbdbdb;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+
+
+
+.button:hover {
+  background-color: #ddd;
+}
+
+
+.announcement {
+  background-color: #f7f5d3;
+}
+
+
+.footer {
+  background-color: coral;
+  color: white;
+  text-align: center;
+}
+
+thead th:nth-child(1),
+tbody td:nth-child(1) {
+  width: 40px;
+}
+
+thead th:nth-child(2),
+tbody td:nth-child(2) {
+  width: 500px;  
+  
+}
+
+thead th:nth-child(3),
+tbody td:nth-child(3) {
+  width: 68px;  
+}
+
+
+tbody td:nth-child(4) {
+  width: 150px; 
+}
+
+thead th:nth-child(4) {
+  width: 150px; 
+}
+
+thead th:nth-child(5) {
+  width: 50px;  
+}
+
